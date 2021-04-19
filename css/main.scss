@@ -100,6 +100,13 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 100%;
 }
+h1 {
+    color: $pink;
+    font-weight: 900;
+    padding: 40px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
 .content-wrapper {
     margin: 10px 20px;
 }
@@ -146,6 +153,9 @@ header {
 
         }
     }
+}
+.sub-menu {
+  display: none;
 }
 /* large screens */ 
 @media screen and (min-width: 768px) {

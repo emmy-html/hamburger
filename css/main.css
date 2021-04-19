@@ -83,6 +83,13 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 100%; }
 
+h1 {
+  color: #EF476F;
+  font-weight: 900;
+  padding: 40px 0px;
+  text-align: center;
+  text-transform: uppercase; }
+
 .content-wrapper {
   margin: 10px 20px; }
 
@@ -120,6 +127,9 @@ header .content-wrapper {
           header .content-wrapper nav ul li a:link:hover,
           header .content-wrapper nav ul li a:visited:hover {
             border-bottom: 3px solid #ff9770; }
+
+.sub-menu {
+  display: none; }
 
 /* large screens */
 @media screen and (min-width: 768px) {
